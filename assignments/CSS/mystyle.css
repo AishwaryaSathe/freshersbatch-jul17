@@ -1,0 +1,27 @@
+body {
+ background-color: #ccffff;
+
+}
+
+h1.sansserif {
+    font-family:"Candara", sans-serif;
+}
+
+h2.sansserif {
+    font-family:"Candara", sans-serif;
+}
+
+h3.sansserif {
+    font-family:"Candara", sans-serif;
+}
+
+h4.sansserif {
+    font-family:"Candara", sans-serif;
+}
+h2 {
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration: underline;
+}
