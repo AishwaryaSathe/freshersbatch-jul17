@@ -1,12 +1,14 @@
 h1 {
  background-color: #8080ff;
-
+  
 }
 h1.sansserif {
     font-family:"Candara", sans-serif;
 }
 div {
  background-color: #ccccff;
+margin-top: -22px;
+
 }
 
 p {
