@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"> <!--lang en ref code for english to assist browsers and search engine to know the lang of we pg-->
+<head>
+  <title>Aishwarya's world</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+	var y=document.forms["myForm"]["msg"].value;
+	if(x=="" && y=="")
+	{
+	alert("Name and message must be filled out");
+        return false;
+    }
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+	if(y=="")
+	{
+	alert("Message must be filled out");
+        return false;
+    }
+	
+	
+}
+</script>
+
+<style>
+
+ body {
+    font: 30px 'Lobster Two', cursive;
+      line-height: 1.8;
+      color: black;
+	  background-image: url("https://assets2.affairscloud.com/assets/uploads/2014/09/website-background.jpg");
+	
+  }
+
+.pbody{
+
+text-align:justify;
+
+
+}
+
+.divbody {
+margin-left=10px;
+margin-right=10px;
+}
+.divimg
+{
+margin-left=0;
+margin-top=-20;
+position:relative;
+}
+.absolute-text{
+position:absolute;
+ bottom:0; 
+ color:white;
+font: 60px 'Lobster Two', cursive;
+padding:10px 20px;
+padding-bottom:108px; 
+width:100%; text-align:center;}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+     <li><a href="http://aishwaryasathe.blogspot.in/">My Blog</a></li>
+      <li><a href="social1.html">Social Network </a></li>
+      <li><a href="carousel.html">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+ <hr> 
+
+ <div class="divimg" >
+  <img src="bg1.jpg" alt="Div image" width="100%" height="300px" style="position:relative">
+  <img class="img-circle"  src="4.jpg"  alt="my image" width="205px" height="280px" style="position:absolute; margin-top=-20px; margin-left:200px;top:3.5%;">
+<p class="absolute-text">Hi..I'm Aishwarya</p>
+</div>
+
+<hr>
+
+<div class="w3-container" style="margin-top:20px"> 
+
+<p class="pbody">I like to describe myself as a dog lover.I like to scribble the thoughts in my mind for the world to read it.
+I believe <i>"Destiny"</i> is the ultimate truth of the life.My favorite passtime is watching series,reading and ofcourse playing with dogs.
+I just love<i>"DIY"</i> stuff.I like learning foreign languages. I can speak total four languages :- <i>English,Hindi,Marathi and Deutsch</i>.
+I was a document writer for the Firefox club STES.I have taught ICT(information and communication technology) to the SSC student of Hire High School,Pune under the campaign by Firefox Club STES.<br>
+<strong><em>I also make and sell dreamcatchers<em></strong>.
+
+</p> 
+
+</div>
+<hr>
+
+<div align="center" style="font: 20px 'Lobster Two', cursive;">
+
+<h1 style="font: 30px 'Lobster Two', cursive;">To place an order for dreamcatcher,contact Me</h1>
+
+<form name="myForm" method="post">
+
+<table>
+
+<tr>
+<td>
+Name:</td><td> <input type="text" name="fname" id="t1"></td>
+</tr>
+
+<tr>
+<td>Message:</td>
+<td>
+
+<textarea name="msg" rows="2" cols="20"></textarea></td>
+<tr><td colspan=2><input type="submit" onclick="validateForm()" style="margin-left:90px"></td></tr>
+<!--<tr><td colspan=2><button type="submit" style="margin-left:90px"><a href="mailto:sathe.aishu@gmail.com" " style="text-decoration : none; color : #000000;">Send</a></button></td></tr>-->
+</table>
+</form>
+
+<hr>
+
+<footer align="center" style="font: 20px 'Lobster Two', cursive ;margin-top:50px">
+<p>&copy;2017 Aishwarya Sathe</p>
+</footer>
+</div>
+
+
+</body>
+</html>
